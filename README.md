@@ -1,2 +1,3 @@
-# sakinah
-Website created with Pagelo
+# Sakinah
+
+Website created with Pagelo. Edit it visually, then save and publish it.
