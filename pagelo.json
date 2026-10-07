@@ -6,15 +6,15 @@
   },
   "theme": {
     "colors": {
-      "background": "#705943",
-      "surface": "#30271f",
-      "text": "#fff7eb",
-      "muted": "#c9b9a5",
-      "accent": "#e6a45b"
+      "background": "#12101a",
+      "surface": "#201b2c",
+      "text": "#f4f2fa",
+      "muted": "#b5aec5",
+      "accent": "#ad8cff"
     },
     "headingFont": "Inter",
     "bodyFont": "Inter",
-    "cornerRadius": 4,
+    "cornerRadius": 32,
     "buttonStyle": "rounded",
     "spacing": "comfortable"
   },
@@ -32,22 +32,6 @@
       "title": "Sakinah",
       "description": "Sakinah — welcome to our website.",
       "sections": [
-        {
-          "id": "welcome",
-          "kind": "hero",
-          "eyebrow": "GOOD FOOD, GOOD COMPANY",
-          "title": "Pull up a chair",
-          "body": "Seasonal plates, thoughtful drinks, and a little more time around the table.",
-          "align": "center",
-          "blocks": [
-            {
-              "id": "hero-button",
-              "type": "button",
-              "text": "Come by for a bite",
-              "href": "#contact"
-            }
-          ]
-        },
         {
           "id": "section-5",
           "kind": "hero",
