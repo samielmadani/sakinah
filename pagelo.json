@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "site": {
+    "name": "Sakinah",
+    "description": "Menus, opening hours, and a table worth booking."
+  },
+  "theme": {
+    "colors": {
+      "background": "#12101a",
+      "surface": "#201b2c",
+      "text": "#f4f2fa",
+      "muted": "#b5aec5",
+      "accent": "#ad8cff"
+    },
+    "headingFont": "Inter",
+    "bodyFont": "Inter",
+    "cornerRadius": 32,
+    "buttonStyle": "rounded",
+    "spacing": "comfortable"
+  },
+  "header": {
+    "brand": "Sakinah"
+  },
+  "footer": {
+    "text": "© 2026 Sakinah"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "slug": "index",
+      "name": "Home",
+      "title": "Sakinah",
+      "description": "Sakinah — welcome to our website.",
+      "sections": [
+        {
+          "id": "section-5",
+          "kind": "hero",
+          "eyebrow": "GOOD FOOD, GOOD COMPANY",
+          "title": "Pull up a chair",
+          "body": "Seasonal plates, thoughtful drinks, and a little more time around the table.",
+          "align": "center",
+          "blocks": [
+            {
+              "id": "section-5-block-1",
+              "type": "button",
+              "text": "Come by for a bite",
+              "href": "#contact"
+            }
+          ]
+        },
+        {
+          "id": "about",
+          "kind": "about",
+          "eyebrow": "A LITTLE ABOUT US",
+          "title": "A good fit for Sakinah",
+          "body": "Our kitchen follows the seasons and works with nearby growers to bring something lovely to your table.",
+          "align": "left",
+          "blocks": []
+        },
+        {
+          "id": "features",
+          "kind": "services",
+          "title": "A taste of what we do",
+          "blocks": [
+            {
+              "id": "feature-1",
+              "type": "heading",
+              "level": 3,
+              "text": "Seasonal menu"
+            },
+            {
+              "id": "feature-1-copy",
+              "type": "text",
+              "text": "Made with care, shaped around what matters to you."
+            },
+            {
+              "id": "feature-2",
+              "type": "heading",
+              "level": 3,
+              "text": "Local ingredients"
+            },
+            {
+              "id": "feature-2-copy",
+              "type": "text",
+              "text": "A little more thoughtful at every step."
+            },
+            {
+              "id": "feature-3",
+              "type": "heading",
+              "level": 3,
+              "text": "A table for everyone"
+            },
+            {
+              "id": "feature-3-copy",
+              "type": "text",
+              "text": "Good people, here to help when you need us."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "kind": "cta",
+          "title": "Come by for a bite",
+          "body": "We’d love to hear what you have in mind.",
+          "align": "center",
+          "blocks": [
+            {
+              "id": "contact-button",
+              "type": "button",
+              "text": "Get in touch",
+              "href": "mailto:hello@example.com"
+            }
+          ],
+          "background": "#5c320a"
+        },
+        {
+          "id": "section-6",
+          "kind": "features",
+          "title": "Your features",
+          "align": "left",
+          "blocks": [
+            {
+              "id": "heading-6-1",
+              "type": "heading",
+              "level": 3,
+              "text": "First highlight"
+            },
+            {
+              "id": "text-6-1",
+              "type": "text",
+              "text": "Add a few words about this."
+            },
+            {
+              "id": "heading-6-2",
+              "type": "heading",
+              "level": 3,
+              "text": "Another highlight"
+            },
+            {
+              "id": "text-6-2",
+              "type": "text",
+              "text": "Share what makes it special."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "slug": "page-2",
+      "name": "Testing",
+      "title": "This is cool",
+      "description": "Sakinah page  welcome to our website.",
+      "sections": [
+        {
+          "id": "welcome",
+          "kind": "content",
+          "title": "Sakinah page",
+          "body": "Start with a warm welcome for your visitors.",
+          "blocks": []
+        }
+      ],
+      "hiddenFromMenu": false
+    }
+  ]
+}
