@@ -6,7 +6,7 @@
   },
   "theme": {
     "colors": {
-      "background": "#201b16",
+      "background": "#705943",
       "surface": "#30271f",
       "text": "#fff7eb",
       "muted": "#c9b9a5",
@@ -14,7 +14,7 @@
     },
     "headingFont": "Inter",
     "bodyFont": "Inter",
-    "cornerRadius": 16,
+    "cornerRadius": 4,
     "buttonStyle": "rounded",
     "spacing": "comfortable"
   },
@@ -42,6 +42,22 @@
           "blocks": [
             {
               "id": "hero-button",
+              "type": "button",
+              "text": "Come by for a bite",
+              "href": "#contact"
+            }
+          ]
+        },
+        {
+          "id": "section-5",
+          "kind": "hero",
+          "eyebrow": "GOOD FOOD, GOOD COMPANY",
+          "title": "Pull up a chair",
+          "body": "Seasonal plates, thoughtful drinks, and a little more time around the table.",
+          "align": "center",
+          "blocks": [
+            {
+              "id": "section-5-block-1",
               "type": "button",
               "text": "Come by for a bite",
               "href": "#contact"
@@ -110,9 +126,57 @@
               "text": "Get in touch",
               "href": "mailto:hello@example.com"
             }
+          ],
+          "background": "#5c320a"
+        },
+        {
+          "id": "section-6",
+          "kind": "features",
+          "title": "Your features",
+          "align": "left",
+          "blocks": [
+            {
+              "id": "heading-6-1",
+              "type": "heading",
+              "level": 3,
+              "text": "First highlight"
+            },
+            {
+              "id": "text-6-1",
+              "type": "text",
+              "text": "Add a few words about this."
+            },
+            {
+              "id": "heading-6-2",
+              "type": "heading",
+              "level": 3,
+              "text": "Another highlight"
+            },
+            {
+              "id": "text-6-2",
+              "type": "text",
+              "text": "Share what makes it special."
+            }
           ]
         }
       ]
+    },
+    {
+      "id": "page-2",
+      "slug": "page-2",
+      "name": "Testing",
+      "title": "This is cool",
+      "description": "Sakinah page  welcome to our website.",
+      "sections": [
+        {
+          "id": "welcome",
+          "kind": "content",
+          "title": "Sakinah page",
+          "body": "Start with a warm welcome for your visitors.",
+          "blocks": []
+        }
+      ],
+      "hiddenFromMenu": false
     }
   ]
 }
